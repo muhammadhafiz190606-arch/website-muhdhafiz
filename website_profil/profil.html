@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Profil - Muhammad Hafiz</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins',sans-serif;
+}
+
+body{
+  background: linear-gradient(135deg,#141e30,#243b55);
+  color:#fff;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
+
+/* CONTAINER */
+.container{
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(15px);
+  border-radius:20px;
+  padding:40px;
+  width:90%;
+  max-width:600px;
+  box-shadow:0 20px 40px rgba(0,0,0,0.4);
+  text-align:center;
+  animation: fadeUp 1s ease;
+}
+
+/* FOTO */
+.profile-img{
+  width:120px;
+  height:120px;
+  border-radius:50%;
+  border:3px solid #00f5d4;
+  margin-bottom:15px;
+}
+
+/* TEXT */
+h1{
+  margin-bottom:10px;
+}
+
+p{
+  opacity:0.8;
+  line-height:1.6;
+}
+
+/* BOX INFO */
+.info{
+  margin-top:20px;
+  padding:15px;
+  border-radius:15px;
+  background: rgba(255,255,255,0.07);
+  transition:0.3s;
+}
+
+.info:hover{
+  transform:scale(1.05);
+  background: rgba(0,245,212,0.2);
+}
+
+/* ANIMASI */
+@keyframes fadeUp{
+  from{
+    opacity:0;
+    transform:translateY(40px);
+  }
+  to{
+    opacity:1;
+    transform:translateY(0);
+  }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+  
+  <img src="https://i.imgur.com/yourphoto.jpg" class="profile-img">
+
+  <h1>Muhammad Hafiz</h1>
+
+  <p>
+    'assalamualaikum,perkenalkan nama saya Muhammad Hafiz. Saya adalah seorang yang memiliki minat besar di bidang teknologi dan dunia digital. Sejak awal, saya tertarik untuk mempelajari bagaimana sebuah website dibuat, bagaimana konten digital bisa menarik perhatian banyak orang, serta bagaimana teknologi dapat digunakan untuk membantu kehidupan sehari-hari.
+
+Saya memiliki ketertarikan khusus dalam pengembangan website (web development), editing video, serta pembuatan konten digital seperti YouTube. Saya senang mengeksplorasi hal-hal baru, belajar secara mandiri, dan terus meningkatkan kemampuan saya agar bisa berkembang menjadi lebih profesional di bidang ini.
+
+Selain itu, saya juga memiliki semangat untuk terus berkarya dan menciptakan sesuatu yang bermanfaat. Beberapa project yang telah saya kerjakan meliputi pembuatan website, pengelolaan channel YouTube dengan konten militer, serta penulisan e-book tentang manajemen waktu. Semua ini merupakan bagian dari proses saya dalam membangun skill dan pengalaman.
+
+Saya percaya bahwa konsistensi, kemauan belajar, dan kerja keras adalah kunci untuk mencapai kesuksesan di era digital saat ini. Oleh karena itu, saya terus berusaha untuk mengembangkan diri, memperdalam pengetahuan, dan menciptakan karya yang tidak hanya menarik tetapi juga memiliki nilai.
+
+Harapan saya ke depan adalah dapat menjadi seorang profesional di bidang teknologi digital, serta mampu memberikan kontribusi positif melalui karya-karya yang saya buat.”'.
+  </p>
+
+  <div class="info">💻 Web Developer</div>
+  <div class="info">🎥 Content Creator</div>
+  <div class="info">🚀 Digital Creator</div>
+
+</div>
+
+</body>
+</html>
